@@ -1,0 +1,12 @@
+$font-size: 130%;
+.section {
+    grid-area: section; 
+    &__titulo {
+      background-color: lightsalmon;
+      color: #7a0c0c; }
+    &__parrafo {
+      color: white;
+      font-weight: bold;
+      font-size: $font-size;
+      font-family: 'Nunito', sans-serif; }
+    }

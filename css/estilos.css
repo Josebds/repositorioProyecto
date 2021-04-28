@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../imagen/fondo3.jpg");
+  background-size: 100%; }
+
+#divContainer {
+  height: 100%;
+  grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+  grid-template-columns: 40% 40% 20%;
+  grid-template-areas: "header header header" "nav nav nav" "section section aside" "section section aside" "footer footer footer"; }
+
+.header {
+  display: grid;
+  grid-area: header;
+  height: 160px;
+  align-items: center;
+  justify-content: center; }
+  .header__Logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 140px;
+    height: 140px; }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: lightsalmon;
+  font-size: 300%;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: font-size 2s; }
+
+h1:hover {
+  font-size: 350%; }
+
+nav {
+  height: 50px;
+  grid-area: nav;
+  background-color: #7a0c0c; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center; }
+  nav li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; }
+  nav li:hover {
+    background-color: lightsalmon;
+    color: black; }
+
+.section {
+  grid-area: section; }
+  .section__titulo {
+    background-color: lightsalmon;
+    color: #7a0c0c; }
+  .section__parrafo {
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: 'Nunito', sans-serif; }
+
+.footer {
+  grid-area: footer;
+  background-color: #7a0c0c; }
+  .footer__Parrafo {
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: 'Nunito', sans-serif; }
+
+.logoFlotante {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 80px;
+  width: 80px; }

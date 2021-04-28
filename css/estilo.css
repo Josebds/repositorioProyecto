@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../imagen/fondo3.jpg");
+  background-size: 100%; }
+
+#divContainer {
+  height: 100%;
+  grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+  grid-template-columns: 40% 40% 20%;
+  grid-template-areas: "header header header"
+ "nav nav nav"
+ "section section aside"
+ "section section aside"
+ "footer footer footer"; }
+
+nav {
+  height: 50px;
+  grid-area: nav;
+  background-color: #7a0c0c; }
+
+#contactoContainer {
+  grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "header header"
+ "nav nav"
+ "section aside"
+ "footer footer"; }
+
+#divContacto {
+  grid-area: aside; }
+
+#menuContainer {
+  
+  grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: "header header"
+ "nav nav"
+ "section aside"
+ "footer footer"; }
+
+#sectionMenu {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "fotoUno p1"
+ "fotoDos p2"
+ "fotoTres p3"
+ "fotoCuatro p4"
+ "fotoCinco p5";
+  height: 2000px; }
+
+#h2Contacto {
+  color: lightsalmon;
+  background-color: maroon;
+  font-family: 'Nunito', sans-serif; }
+
+#sectionNosotros {
+  margin: 5%;
+  font-size: 90%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 25% 25% 50%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "p1 p1"
+ "p2 p2"
+ "p3 p4"; }
+
+#h3Nosotros {
+  grid-area: p1; }
+
+#listaHeader {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center; }
+
+#imagenLogo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+  height: 140px; }
+
+#sectionGaleriaContainer {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.4%;
+  grid-template-rows: 33.3% 33.3% 33.4%;
+  grid-template-areas: "fotoUno fotoDos fotoTres"
+ "fotoCuatro fotoCinco fotoSeis"
+ "fotoSiete fotoOcho ."; }
+
+#nosotrosContainer {
+  grid-template-rows: 10% 3% 77% 10%;
+  grid-template-columns: 100%;
+  grid-template-areas: "header"
+ "nav"
+ "section"
+ "footer"; }
+
+#fotoUno {
+  grid-area: fotoUno;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoDos {
+  grid-area: fotoDos;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoTres {
+  grid-area: fotoTres;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoCuatro {
+  grid-area: fotoCuatro;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoCinco {
+  grid-area: fotoCinco;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoSeis {
+  grid-area: fotoSeis;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoSiete {
+  grid-area: fotoSiete;
+  max-width: 100%;
+  padding: 15px; }
+
+#fotoOcho {
+  grid-area: fotoOcho;
+  max-width: 100%;
+  padding: 15px; }
+
+#loguito {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 80px;
+  width: 80px; }
+
+#pNosotros {
+  grid-area: p2;
+  padding: 10%; }
+
+#listaNosotros {
+  grid-area: p3; }
+
+#p4 {
+  grid-area: p4; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  color: lightsalmon;
+  font-size: 300%;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: font-size 2s; }
+
+h1:hover {
+  font-size: 350%; }
+
+h2 {
+  background-color: lightsalmon;
+  color: #7a0c0c; }
+
+ul li {
+  display: inline-block; }
+
+ul li:hover {
+  background-color: lightsalmon;
+  color: black; }
+
+li,
+a {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none; }
+
+header {
+  display: grid;
+  grid-area: header;
+  height: 160px;
+  align-items: center;
+  justify-content: center; }
+
+.section {
+  grid-area: section; }
+  .section__titulo {
+    background-color: lightsalmon;
+    color: #7a0c0c; }
+  .section__parrafo {
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: 'Nunito', sans-serif; }
+
+
+
+aside {
+  display: grid;
+  grid-area: aside;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 8px; }
+
+footer {
+  grid-area: footer; }
+
+#p,
+h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 130%;
+  font-family: 'Nunito', sans-serif; }
+
+#h2 {
+  font-size: 300%; }
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  color: lightsalmon;
+  font-size: 250%; }
+
+form {
+  background-color: #7a0c0c; }
+
+@media only screen and (max-width: 768px) {
+  #divContainer {
+    grid-template-rows: 17% 8% 37.5% 37.5% 5%;
+    grid-template-columns: 40% 40% 20%; }
+  #imagenLogo {
+    width: 90px;
+    height: 90px;
+    top: 10px;
+    left: 10px; }
+  #contactoContainer {
+    display: grid;
+    grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+ "nav"
+ "section"
+ "aside"
+ "footer"; }
+  h1 {
+    font-size: 240%; }
+  #sectionGaleriaContainer {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "fotoUno fotoDos"
+ "fotoTres fotoCuatro"
+ "fotoCinco fotoSeis"
+ "fotoSiete fotoOcho";
+    height: 2300px; }
+  #sectionMenu {
+    height: 1500px; }
+  h2,
+  h3 {
+    font-size: 150%; }
+  p {
+    font-size: 1; }
+  header {
+    height: 300px; }
+  nav {
+    height: 100px; }
+  form {
+    margin: 5px; }
+  h1:hover {
+    font-size: 130%; } }
+
+@media only screen and (max-width: 576px) {
+  #divContainer {
+    grid-template-rows: 10% 10% 40% 40% 5%;
+    grid-template-columns: 40% 40% 20%; }
+  #listaHeader {
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 20% 20%; }
+  #imagenLogo {
+    width: 10px;
+    height: 10px; }
+  #sectionGaleriaContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-areas: "fotoUno"
+ "fotoDos"
+ "fotoTres"
+ "fotoCuatro"
+ "fotoCinco"
+ "fotoSeis"
+ "fotoSiete"
+ "fotoOcho";
+    height: 1300px; }
+  #contactoContainer {
+    display: grid;
+    grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+ "nav"
+ "section"
+ "aside"
+ "footer"; }
+  form {
+    margin: 5px; }
+  nav {
+    background-color: #7a0c0c;
+    height: 130px; }
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    font-size: 120%; }
+  h1:hover {
+    font-size: 130%; }
+  aside {
+    font-size: 70%; }
+  #sectionContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-areas: "fotoUno"
+ "fotoDos"
+ "fotoTres"
+ "fotoCuatro"
+ "fotoCinco"
+ "fotoSeis"
+ "fotoSiete"
+ "fotoOcho"; }
+  h2 {
+    font-size: 100%; }
+  p {
+    font-size: 100%; }
+  header {
+    height: 200px; } }
+
+@media only screen and (max-width: 992px) {
+  #imagenLogo {
+    width: 110px;
+    height: 110px; } }
+
+@media only screen and (max-width: 368px) {
+  #imagenLogo {
+    width: 50px;
+    height: 50px; } }
+
+@media only screen and (max-width: 576px) {
+  #imagenLogo {
+    width: 50px;
+    height: 50px; } }

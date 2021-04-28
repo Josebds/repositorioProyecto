@@ -1,0 +1,21 @@
+Agregué el SEO a mi sitio web de la siguiente manera:
+
+En el index.html a través del meta agregue la descripción
+ "Este es el Menu de RiceXpress, el mejor local de comida china" y a través de Keywords
+"COMIDA CHINA, ARROZ, BEBIDAS, RICE"
+
+En el menu.html
+Descripción : "Este es el Menu de RiceXpress, el mejor local de comida china"
+Keywords: "COMIDA CHINA, ARROZ, BEBIDAS, RICE, MENU"
+
+En galería.html
+Descripción: "Galeria de RiceXpress, el mejor local de comida china"
+Keywords: "COMIDA CHINA, ARROZ, BEBIDAS, RICE, FOTOS, GALERIA"
+
+En sobrenosotros.html
+Descripción: ""Sobre Nosotros RiceXpress"
+Keywords:"COMIDA CHINA, ARROZ, BEBIDAS, RICE, NOSOTROS"
+
+Y finalmente en contacto.html
+Descripción: "Contacto de RiceXpress, el mejor local de comida china"
+Keywords: "COMIDA CHINA, ARROZ, BEBIDAS, RICE, CONTACTO"

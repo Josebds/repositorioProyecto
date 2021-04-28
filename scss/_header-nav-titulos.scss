@@ -1,0 +1,61 @@
+@mixin nav{
+
+    height: 50px;
+    grid-area: nav;
+    background-color: #7a0c0c;
+
+}
+.header{
+    display: grid;
+    grid-area: header;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    
+    &__Logo{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 140px;
+        height: 140px;
+    }
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: lightsalmon;
+    font-size: 300%;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: font-size 2s; }
+  
+  h1:hover {
+    font-size: 350%; }
+nav {
+    @include nav;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: grid;
+        list-style-type: none;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        align-items: center;
+        justify-items: center;
+                                }
+
+    li{
+        display: inline-block;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    li:hover{
+        background-color: lightsalmon;
+        color: black;
+    }
+}
