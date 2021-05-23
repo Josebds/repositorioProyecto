@@ -163,7 +163,14 @@ nav {
 
 #p4 {
   grid-area: p4; }
-
+.footer{
+  justify-items: center;
+  align-items: center;
+}
+.parrafoFooter{
+  margin-left: 36%;
+  color: white;
+}
 img {
   width: 100%;
   height: 100%; }
