@@ -1,10 +1,11 @@
 .footer{
+    text-align: center;
     grid-area: footer;
     background-color: #7a0c0c;
     &__Parrafo{
         color: white;
     font-weight: bold;
-    font-size: $font-size;
+    font-size: 80%;
     font-family: 'Nunito', sans-serif;
     }
 }

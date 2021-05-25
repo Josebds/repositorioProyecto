@@ -12,3 +12,75 @@ body {
                          "section section aside"
                          "section section aside"
                          "footer footer footer"; }
+
+#nosotrosContainer {
+    grid-template-rows: 10% 3% 77% 10%;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"                        
+                         "nav"
+                         "section"
+                         "footer"; }        
+                         
+#menuContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "section aside"
+                         "footer footer"; }
+
+.contactoContainer {
+    margin: 0;
+    grid-template-rows: 10% 3% 38.5% 38.5% 10%;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "section aside"
+                         "footer footer"; }
+
+#sectionMenu {
+    display: grid;
+    margin: 1%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "fotoUno p1"
+                         "fotoDos p2"
+                         "fotoTres p3"
+                         "fotoCuatro p4"
+                         "fotoCinco p5";
+    height: 2000px; }
+
+#sectionNosotros {
+    margin: 5%;
+    font-size: 90%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 25% 25% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "p1 p1"
+                         "p2 p2"
+                         "p3 p4"; }
+
+#sectionGaleriaContainer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+    grid-template-rows: 33.3% 33.3% 33.4%;
+    grid-template-areas: "fotoUno fotoDos fotoTres"
+                         "fotoCuatro fotoCinco fotoSeis"
+                         "fotoSiete fotoOcho ."; }
+#nosotrosContainer {
+    grid-template-rows: 10% 3% 77% 10%;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "nav"
+                         "section"
+                         "footer"; }
+
+                        
